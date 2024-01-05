@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc5141b50b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="\images\harish.png" class="logo">
+                <ul>
+                    <li><a href="#" style="color: black;">Home</a></li>
+                    <li ><a href="#about" style="color: black;">About</a></li>
+                    <li style="color: black;"><a href="#services" style="color: black;">Services</a></li>
+                    <li style="color: black;"><a href="#portfolio" style="color: black;">Portfolio</a></li>
+                    <li style="color: black;"><a href="#contact" style="color: black;">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1 style="color: black;">my self<span> ANEASH K.A</span> </h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------About----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/profile.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An enthusiastic young mind eager to learn everyday not only in the respective field and also in
+                        the developing fields and feels pleasure to be part of the great organization</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                      
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Communication</span><br>Languages known English,tamil.</li>
+                            <li><span>Web Development</span><br>Well versed in HTML,css and Js</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br>B.E cse<br>
+                            <span class="clg-name">sece</span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----Services--- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. .</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Base Management</h2>
+                    <p>A database management system (or DBMS) is essentially nothing more than a computerized data-keeping system. Users of the system are given facilities to perform several kinds of operations on such a system for either manipulation of the data in the database or the management of the database structure itself.</p>
+                    <a href="#">Learn More</a>
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+    <!-- ------Portfolio----- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-lists">
+                <div class="work">
+                    <img src="\images\shopi.png">
+                    <div class="layer">
+                        <h3>E-Cart</h3>
+                        <p>Ecommerce is a method of buying and selling goods and services online. The definition of ecommerce business can also include tactics like affiliate marketing.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="download (1).jpg">
+                    <div class="layer">
+                        <h3>football Registeration</h3>
+                        <p> it improve cardiovascular function and reduce belly fat with happyness</p>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------Contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p style="color: black;"><i class="fa-solid fa-envelope"></i>vellaneash@gmail.com</p>
+                    <p style="color: black;"><i class="fa-solid fa-phone"></i>+91 9345656366</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+        
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; ANEASH K.A</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
